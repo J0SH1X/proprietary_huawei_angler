@@ -22,8 +22,8 @@ PRODUCT_COPY_FILES += \
 	
 
     #bin
-    vendor/huawei/angler/proprietary/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
-    vendor/huawei/angler/proprietary/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
+        vendor/huawei/angler/proprietary/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
+        vendor/huawei/angler/proprietary/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
 	vendor/huawei/angler/proprietary/bin/log:$(TARGET_COPY_OUT_VENDOR)/bin/log \
 	vendor/huawei/angler/proprietary/bin/sha256sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha256sum \
 	vendor/huawei/angler/proprietary/bin/md5sum:$(TARGET_COPY_OUT_VENDOR)/bin/md5sum \
